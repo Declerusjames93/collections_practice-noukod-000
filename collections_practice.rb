@@ -48,7 +48,7 @@ def find_a(array)
 
 end
 
-find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) 
+find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
 
 def sum_array(array)
   sum = 0
@@ -56,8 +56,8 @@ def sum_array(array)
     sum+=num
   end
   sum
-end 
-  
+end
+
 end
 
 sum_array([11,4,7,8,9,100,134]) #273
