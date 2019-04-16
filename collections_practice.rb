@@ -4,14 +4,14 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort do | left, right|
-    right <=> left
+  array.sort do | a, b|
+    a <=> b
   end
 end
 
 def sort_array_char_count(array)
-  array.sort do |left, right|
-    left.length <=> right.length
+  array.sort do | a, b|
+    b.length <=> a.length
   end
 end
 
@@ -32,7 +32,7 @@ def kesha_maker(array)
   end
 end
 
-kesha_maker(["blake", "ashley", "scott"]) #["bl$ke", "as$ley", "sc$tt"]
+kesha_maker(["blake", "ashley", "scott"]) 
 
 def find_a(array)
   array.find_all do |word|
@@ -40,8 +40,6 @@ def find_a(array)
   end
 
 end
-
-find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
 
 def sum_array(array)
   sum = 0
@@ -52,7 +50,7 @@ def sum_array(array)
 
 end
 
-sum_array([11,4,7,8,9,100,134]) #273
+
 
 def add_s(array)
   array.collect do |word|
